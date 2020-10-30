@@ -6,7 +6,6 @@
 # Last modified: 10-30-2020
 
 import csv
-import sys
 import os
 import argparse
 
