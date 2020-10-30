@@ -28,7 +28,7 @@ optional arguments:
 Example: Say you want the row counts of all txt files located in your Documents folder, and you want that output to be saved on your Desktop.
 
 ```
-python row_count.py txt /Documents /Desktop 
+python row_count.py txt ./Documents ./Desktop 
 ```
 
 Output: A csv file containing the filename and number of rows in each txt file.
