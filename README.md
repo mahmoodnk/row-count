@@ -1,4 +1,4 @@
-# row-count
+# row_count
 A simple command-line tool to count the rows of each file in a given directory. 
 
 
