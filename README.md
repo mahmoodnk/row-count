@@ -37,4 +37,6 @@ Output: A csv file containing the filename and number of rows in each txt file.
 
 
 
-Note: This tool doesn't walk through sub-directories, just the top level directory.
+Notes - 
+(1) This tool doesn't walk through sub-directories, just the top level directory.
+(2) Relative paths are valid input.
