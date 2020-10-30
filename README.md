@@ -40,6 +40,6 @@ Output: A csv file containing the filename and number of rows in each txt file.
 ##### Notes - 
 (1) This tool doesn't walk through sub-directories, just the top level directory.
 
-(2) Relative paths are considered valid input.
+(2) Both absolute and relative paths are considered valid input.
 
 (3) The script specifies Python installed through Anaconda Navigator. You may need to change this for your own machine.
