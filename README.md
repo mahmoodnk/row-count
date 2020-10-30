@@ -1,9 +1,9 @@
 # row-count
-A simple command-line tool to count the rows of each file in a given directory.
+A simple command-line tool to count the rows of each file in a given directory. 
 
 
 ```
-Usage: row_count.py [-h]
+usage: row_count.py [-h]
                     {csv,txt,tsv}
                     target_directory
                     output_directory
@@ -22,3 +22,17 @@ positional arguments:
 optional arguments:
   -h, --help   Show this help message and exit.
 ```
+
+
+Example: Say you want the row counts of all txt files located in your Documents folder, and you want that output to be saved on your Desktop.
+
+```
+python row_count.py txt /Documents /Desktop 
+```
+
+Output: A csv file containing the filename and number of rows in each txt file.
+
+
+
+
+Note: This tool doesn't walk through sub-directories, just the top level directory.
